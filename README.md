@@ -2,10 +2,10 @@
 
 > 🚀 Conhecer os padrões de projeto é fundamental para entender os modernos frameworks e desenvolver softwares melhores. Os padrões resultam em inúmeras vantagens, como exemplo, a melhora na comunicação da equipe de desenvolvimento, resoluções para problemas já existentes no código, flexibilidade e qualidade do código.
 
-> 🚀 Os padrões de projeto são divididos em 3 categorias:
-- Criacionais: Se relaciona com o mecanismo de criação de objetos e a ideia de tornar flexíveis.
-- Estruturais: Organiza as estruturas trabalhando com classes e objetos.
-- Comportamentais: Trabalham com a comunicação eficiente, definindo as responsabilidades dos objetos.
+### Os padrões de projeto são divididos em 3 categorias:
+- **Criacionais**: Se relaciona com o mecanismo de criação de objetos e a ideia de tornar flexíveis.
+- **Estruturais**: Organiza as estruturas trabalhando com classes e objetos.
+- **Comportamentais**: Trabalham com a comunicação eficiente, definindo as responsabilidades dos objetos.
 
 ### Factory Method
 - **Problema**: Sua aplicação está toda estruturada para realizar entregas com carros, mas agora existe uma atual demanda para realizar entregas com motos e biciletas.
