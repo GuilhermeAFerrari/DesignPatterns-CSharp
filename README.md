@@ -1,4 +1,4 @@
-# SOLID
+# Design Patterns
 
 > 🚀 Conhecer os padrões de projeto é fundamental para entender os modernos frameworks e desenvolver softwares melhores. Os padrões resultam em inúmeras vantagens, como exemplo, a melhora na comunicação da equipe de desenvolvimento, resoluções para problemas já existentes no código, flexibilidade e qualidade do código.
 
@@ -8,12 +8,12 @@
 - Comportamentais: Trabalham com a comunicação eficiente, definindo as responsabilidades dos objetos.
 
 ### Factory Method
-- Problema: Sua aplicação está toda estruturada para realizar entregas com carros, mas agora existe uma atual demanda para realizar entregas com motos e biciletas.
-- Solução: Substituir as chamadas (new) das classes concretas para um método intermediário que irá "fabricar" as classes concretas.
+- **Problema**: Sua aplicação está toda estruturada para realizar entregas com carros, mas agora existe uma atual demanda para realizar entregas com motos e biciletas.
+- **Solução**: Substituir as chamadas (new) das classes concretas para um método intermediário que irá "fabricar" as classes concretas.
 
 ### Abstract Factory
-- Problema: Sua aplicação gerencia transportes, contudo a atual demanda é de um marketplace de transportes. A aplicação vai precisar prever quais tipos de transportes estão disponíveis para cada empresa cadastrada no marketplace.
-- Solução: Declarar as interfaces para cada produto compondo uma "família" de produtos, como exemplo, IVeiculos e IAeronaves. Todas as variantes dos produtos devem implementar a interface. A próxima etapa será declarar a "fábrica abstrata", ou seja, uma Interface que possui uma lista de métodos de criação para todos os produtos que fazem parte da "família", os métodos retornam tipos abstratos que representam os produtos. E como fazer para cada cliente do marketplace? Teremos uma classe fábrica que implementa a "fábrica abstrata" com os métodos de criação.
+- **Problema**: Sua aplicação gerencia transportes, contudo a atual demanda é de um marketplace de transportes. A aplicação vai precisar prever quais tipos de transportes estão disponíveis para cada empresa cadastrada no marketplace.
+- **Solução**: Declarar as interfaces para cada produto compondo uma "família" de produtos, como exemplo, IVeiculos e IAeronaves. Todas as variantes dos produtos devem implementar a interface. A próxima etapa será declarar a "fábrica abstrata", ou seja, uma Interface que possui uma lista de métodos de criação para todos os produtos que fazem parte da "família", os métodos retornam tipos abstratos que representam os produtos. E como fazer para cada cliente do marketplace? Teremos uma classe fábrica que implementa a "fábrica abstrata" com os métodos de criação.
 
 ### Builder
 
